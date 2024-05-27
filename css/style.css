@@ -1,0 +1,319 @@
+                @font-face {
+                    font-family: Rubik-VariableFont_wght;
+                    src: url(../fonts/Rubik-VariableFont_wght.ttf);
+                }
+                
+                * {
+                    font-family: sans-serif, 'Roboto';
+                }
+                
+                h1,
+                h1,
+                h3,
+                h4,
+                h5,
+                h5 {
+                    font-family: Rubik-VariableFont_wght;
+                }
+                /*body*/
+                
+                body {
+                    margin: 0;
+                }
+                
+                .uni-padding {
+                    padding: 0 7%;
+                }
+                /*topbar*/
+                
+                #topbar {
+                    background-color: #576574;
+                    padding-top: 18px;
+                    padding-bottom: 18px;
+                    overflow: auto;
+                }
+                
+                #tollfree {
+                    float: left;
+                    color: #fdfdfd;
+                    margin: 0;
+                    margin-top: 5px;
+                }
+                
+                #social-icon {
+                    float: right;
+                }
+                
+                .fab {
+                    background-color: #fdfdfd;
+                    color: #576574;
+                    padding: 7px;
+                    border-radius: 50%;
+                }
+                
+                .fab fa-facebook {
+                    padding: 7px 10px;
+                }
+                
+                .fa-whatsapp {
+                    padding: 7px 9px;
+                }
+                
+                .fa-twitter {
+                    padding: 7px 9px;
+                }
+                
+                .fa-instagram {
+                    padding: 7px 9px;
+                }
+                /*logobar*/
+                
+                #logobar img {
+                    width: 200px;
+                    margin: 0px;
+                }
+                /*navbar*/
+                
+                #navbar {
+                    background-color: rgb(101, 207, 101);
+                }
+                
+                #navbar ul {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                #navbar ul li {
+                    display: inline-block;
+                    padding: 20px 0px;
+                    padding-right: 35px;
+                }
+                
+                #navbar ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px
+                }
+                /* Poster */
+                
+                #poster {
+                    background-image: url(../images/indeximage.jpg);
+                    height: 500px;
+                    background-position: center;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                
+                #poster h1 {
+                    font-size: 50px;
+                }
+                
+                #poster p {
+                    font-size: 18px;
+                }
+                /* why us*/
+                
+                #whysection {
+                    overflow: auto;
+                    margin-bottom: 50px;
+                }
+                
+                .red-heading {
+                    color: rgb(101, 207, 101);
+                    text-align: center;
+                    font-size: 35px;
+                    margin-top: 50px;
+                }
+                
+                .section33 {
+                    width: 33.33%;
+                    float: left;
+                    text-align: center;
+                    padding: 0px 50px 0px 50px;
+                    box-sizing: border-box;
+                }
+                
+                .section33 img {
+                    width: 200px;
+                }
+                
+                .section33 h2 {
+                    color: rgb(101, 207, 101);
+                }
+                
+                .section33 p {
+                    color: rgb(35, 33, 56);
+                }
+                /*contact*/
+                
+                #contact-container {
+                    background-color: rgb(101, 207, 101);
+                    color: white;
+                    overflow: auto;
+                    padding-top: 20px;
+                    padding-bottom: 30px;
+                }
+                
+                .section70 {
+                    width: 70%;
+                    float: left;
+                }
+                
+                .section30 {
+                    width: 30%;
+                    float: left;
+                    text-align: center;
+                    padding-top: 70px;
+                }
+                
+                #contact-btn {
+                    background-color: white;
+                    color: rgb(101, 207, 101);
+                    padding: 15px 50px;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                /*blog*/
+                
+                .section33 a {
+                    color: rgb(101, 207, 101);
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                /* Subscribe*/
+                
+                #subscribe-section {
+                    background-color: rgb(101, 207, 101);
+                    color: white;
+                    overflow: auto;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+                
+                .section50 {
+                    width: 50%;
+                    float: left;
+                }
+                
+                .section50 h2 {
+                    font-size: 27px;
+                    text-align: right;
+                    padding-right: 50px;
+                }
+                
+                .section50 form {
+                    padding-top: 20px;
+                }
+                
+                .section50 input[type="text"] {
+                    padding: 10px;
+                    margin-right: 20px;
+                    border: 0px;
+                    width: 45%;
+                }
+                
+                .section50 input[type="submit"] {
+                    padding: 8px 35px;
+                    font-size: 15px;
+                    color: rgb(101, 207, 101);
+                    border: 0;
+                    border-radius: 5px;
+                }
+                /*footer*/
+                
+                #imp-link {
+                    background-color: #576574;
+                    color: white;
+                    overflow: auto;
+                }
+                
+                .div33 {
+                    width: 33.33%;
+                    float: left;
+                    padding: 25px 50px;
+                    box-sizing: border-box;
+                }
+                
+                .div33 h3 {
+                    text-decoration: underline;
+                    text-underline-offset: 10px;
+                    text-decoration-thickness: 2px;
+                }
+                
+                .div33 ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                
+                .div33 ul li {
+                    padding-bottom: 10px;
+                }
+                
+                .div33 ul li a {
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                #footer-menu-container {
+                    padding-left: 100px;
+                }
+                
+                #copywrite {
+                    background-color: rgb(35, 33, 56);
+                    color: grey;
+                    text-align: center;
+                    padding: 10px;
+                }
+                /* responsive pad */
+                
+                @media only screen and (max-width:768px) {
+                    #navbar ul li {
+                        padding-right: 23px;
+                    }
+                    .section33 {
+                        padding: 0px 50px 0px 0px;
+                    }
+                    .section50 h2 {
+                        padding-right: 40px;
+                        text-align: -webkit-center;
+                    }
+                    .section50 form {
+                        padding-top: 35px;
+                    }
+                    #footer-menu-container {
+                        padding-left: 30px;
+                    }
+                }
+                /*
+                @media only screen and (max-width:392px) {
+                    #logobar img {
+                        width: 200px;
+                        margin: -15px;
+                    }
+                    #poster {
+                        height: 419px;
+                        justify-content: flex-start;
+                    }
+                    #poster p {
+                        font-size: 15px;
+                        padding-right: 62px;
+                    }
+                    #poster h1 {
+                        font-size: 24px;
+                    }
+                    .red-heading {
+                        margin-top: 18px;
+                    }
+                    .section33 img {
+                        width: 97px;
+                    }
+                    .section70 h1 {
+                        text-align: center;
+                        margin-bottom: 0;
+                    }
+                }*/
